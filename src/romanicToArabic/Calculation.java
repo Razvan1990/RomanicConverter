@@ -1,3 +1,9 @@
+package romanicToArabic;
+
+import romanicToArabic.CheckInput;
+import romanicToArabic.Constants;
+import romanicToArabic.IntroduceInput;
+
 import java.util.HashMap;
 
 import static java.lang.Math.abs;

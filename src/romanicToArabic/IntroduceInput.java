@@ -1,3 +1,7 @@
+package romanicToArabic;
+
+import romanicToArabic.CheckInput;
+
 import java.util.Scanner;
 
 public class IntroduceInput {

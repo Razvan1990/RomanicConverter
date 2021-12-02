@@ -1,3 +1,7 @@
+import romanicToArabic.Calculation;
+import romanicToArabic.CheckInput;
+import romanicToArabic.IntroduceInput;
+
 public class Main {
 
     public static void main(String[] args) {
