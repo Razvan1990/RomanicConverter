@@ -1,9 +1,5 @@
 package romanicToArabic;
 
-import romanicToArabic.CheckInput;
-import romanicToArabic.Constants;
-import romanicToArabic.IntroduceInput;
-
 import java.util.HashMap;
 
 import static java.lang.Math.abs;
@@ -14,7 +10,9 @@ public class Calculation {
     private CheckInput checkInput = new CheckInput();
     private Constants constants = new Constants();
 
+
     public int calculateNumber() {
+
         String givenString = introduceInput.introduceInputWithCheckings();
         System.out.print(givenString);
         String extraSpaceGivenString = checkInput.addExtraSpace(givenString);
